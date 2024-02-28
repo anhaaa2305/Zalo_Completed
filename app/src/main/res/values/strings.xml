@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Week3_Motivation_Exercise</string>
+    <string name="ng_nh_p_kh_ng_m_t_kh_u">ĐĂNG NHẬP KHÔNG MẬT KHẨU</string>
+    <string name="chuaCoTaiKhoan">Chưa có tài khoản?</string>
+    <string name="dangKy">Đăng Ký</string>
+    <string name="ho_c">Hoặc</string>
+    <string name="dangNhapVoiKhongMatKhau">ĐĂNG NHẬP VỚI MẬT KHẨU</string>
+    <string name="matKhau">Mật khẩu</string>
+    <string name="soDienThoai">Số điện thoại</string>
+    <string name="quetMaQr">QUÉT MÃ QR</string>
+    <string name="txt_SoDienThoai">SỐ ĐIỆN THOẠI</string>
+    <string name="img_zalo">img_zalo</string>
+</resources>

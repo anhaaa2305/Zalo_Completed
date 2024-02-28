@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Week3_Motivation_Exercise</string>
+    <string name="ng_nh_p_kh_ng_m_t_kh_u">LOGIN WITHOUT PASSWORD</string>
+    <string name="chuaCoTaiKhoan">Do not have an account?</string>
+    <string name="dangKy">Sign up</string>
+    <string name="ho_c">Or</string>
+    <string name="dangNhapVoiKhongMatKhau">LOGIN WITH PASSWORD</string>
+    <string name="matKhau">Password</string>
+    <string name="soDienThoai">Phone Number</string>
+    <string name="quetMaQr">SCAN QR CODE</string>
+    <string name="txt_SoDienThoai">PHONE NUMBER</string>
+    <string name="img_zalo">img_zalo</string>
+</resources>

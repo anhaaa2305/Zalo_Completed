@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/zalo"
+        android:contentDescription="@string/img_zalo" />
+
+
+    <TabHost
+        android:id="@+id/tab_host"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="120dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Tab widget to select the tab -->
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <!-- FrameLayout which contains the data of the activity -->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- for tab 1 -->
+
+                <!-- for tab 2 -->
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <!-- Text View for applying the text to the tab -->
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        />
+
+                    <EditText
+                        android:layout_width="250dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="-35dp"
+                        android:autofillHints="sdt"
+                        android:hint="@string/soDienThoai"
+                        android:inputType="phone"
+                        android:textColorHint="#4F4B4B" />
+
+                    <EditText
+                        android:layout_width="320dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:hint="@string/matKhau"
+                        android:textColorHint="#4F4B4B"
+                        android:autofillHints="password"
+                        android:inputType="textPassword"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#90ee90"
+                    android:orientation="vertical">
+
+                    <!-- Text View for applying the text to the tab -->
+                    <ImageView
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/img_zalo"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="@string/img_zalo" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <!--TextView
+        android:id="@+id/txt_sdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_SoDienThoai"
+        android:textColor="#2C7AB9"
+        android:textSize="20sp"
+        android:textStyle="bold" /-->
+
+    <!--TextView
+        android:id="@+id/txt_quetMaQr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quetMaQr"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        /-->
+
+
+    <Button
+        android:id="@+id/btn_loginWithoutPassword"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/dangNhapVoiKhongMatKhau"
+        android:backgroundTint="#26699E"
+        android:textSize="20sp"
+        android:padding="1dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="@string/ho_c"
+        android:layout_marginStart="180dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/ng_nh_p_kh_ng_m_t_kh_u"
+        android:maxLines="1"
+        android:backgroundTint="#26699E"
+        android:textSize="20sp"
+        android:padding="1dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chuaCoTaiKhoan"
+        android:layout_marginTop="580dp"
+        android:layout_marginStart="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dangKy"
+        android:layout_marginTop="580dp"
+        android:layout_marginStart="225dp"
+        android:textColor="#2196F3"
+        />
+</RelativeLayout>

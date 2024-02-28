@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Week3_Motivation_Exercise</string>
+    <string name="ng_nh_p_kh_ng_m_t_kh_u">비밀번호 없이 로그인</string>
+    <string name="chuaCoTaiKhoan">계정이 없나요?</string>
+    <string name="dangKy">등록하다</string>
+    <string name="ho_c">또는</string>
+    <string name="dangNhapVoiKhongMatKhau">비밀번호로 로그인</string>
+    <string name="matKhau">비밀번호</string>
+    <string name="soDienThoai">전화 번호</string>
+    <string name="quetMaQr">QR 코드 스캔</string>
+    <string name="txt_SoDienThoai">전화 번호</string>
+    <string name="img_zalo">img_zalo</string>
+</resources>
